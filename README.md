@@ -20,7 +20,7 @@ There is a sample html for testing the java script
 
 # Attribute 'validator-required'
  
-    Give to the element which is mandatory to be filled
+    Give to the element which is mandatory.
 
 # Attribute 'validator-regex' 
     
