@@ -1,0 +1,39 @@
+<html>
+<head>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="../JavaScipts/custom-validator.js"></script>
+<link rel="stylesheet"
+	href="../styles/custom-validator.css">
+
+</head>
+<body>
+
+<div class="form-wrapper custom-validator-form">
+							
+							<div style="float: left; width: 290px; margin-top:10px;">
+								 <label style="margin-left: 6px; width: 120px; float: left">Item:</label> 
+									<input name="item" type="text" class="adops-rate-value" style="width: 120px; float: left" validator-required validator-regex="^[a-zA-Z]+$"/>
+							</div>
+							
+							<div style="float: left; width: 290px; margin-top:10px;">
+								 <label style="margin-left: 6px; width: 120px; float: left">Rate:</label> 
+									<input name="price" type="text" class="adops-rate-value" style="width: 120px; float: left" validator-required validator-regex="^(\d{1,3})$"/>
+							</div>
+							<div style="float: left; width: 290px;">
+								<button class="cv-btn-disable custom-validator-form-submit-button" onClick="testOnClick()">Add Item</button>
+							</div>
+
+</div>
+
+<script>
+function testOnClick(){
+	alert("Add Item buttom Clicked");
+}
+
+</script>
+
+</body>
+
+</html>
